@@ -78,6 +78,27 @@ button, input, select, textarea { font: inherit; }
 .fees strong { font: 600 26px var(--serif); }
 .fees small { margin-left: 4px; font: 11px var(--sans); }
 .fees > p:last-child { color: #66635d; font-size: 12px; }
+.practice-calendar { margin-top: 92px; padding-top: 56px; border-top: 1px solid #66776f; }
+.calendar-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 36px; }
+.calendar-heading .eyebrow { color: #c8a16d; }
+.calendar-heading h3 { margin: 0; font: 600 clamp(25px, 3vw, 38px) var(--serif); }
+.calendar-legend { display: flex; gap: 22px; color: #c6cfca; font-size: 12px; }
+.calendar-legend span { display: flex; align-items: center; gap: 8px; }
+.calendar-legend i { width: 11px; height: 11px; display: inline-block; }
+.legend-practice { background: #c8a16d; }
+.legend-closed { background: var(--vermilion); }
+.calendar-months { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 72px); }
+.calendar-month h4 { display: flex; align-items: baseline; gap: 12px; margin: 0 0 18px; color: #aebbb4; font-size: 11px; letter-spacing: .16em; }
+.calendar-month h4 span { color: var(--white); font: 600 34px var(--serif); letter-spacing: 0; }
+.calendar-month table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.calendar-month th { height: 32px; color: #9eaba5; font-size: 10px; font-weight: 500; }
+.calendar-month td { position: relative; height: 52px; padding: 0; border: 1px solid #53645c; color: #bcc7c1; text-align: center; font-size: 13px; }
+.calendar-month td:first-child, .calendar-month th:first-child { color: #d28b82; }
+.calendar-month td:empty { background: rgba(255,255,255,.025); }
+.calendar-month td.practice { color: var(--forest); background: #c8a16d; font-weight: 700; }
+.calendar-month td.closed { color: var(--white); background: var(--vermilion); font-weight: 700; }
+.calendar-month td small { position: absolute; right: 4px; bottom: 1px; font-size: 9px; font-weight: 700; }
+.calendar-note { margin: 22px 0 0; color: #aebbb4; text-align: right; font-size: 12px; }
 
 .instructor { display: grid; grid-template-columns: 1fr .6fr; gap: 22px 9vw; background: #ecebe5; }
 .instructor-title { grid-row: span 2; }
@@ -154,6 +175,11 @@ footer > p { margin: 8px 0; color: #818b86; font-size: 12px; }
   .schedule-row { grid-template-columns: 76px 1fr; gap: 8px; padding: 14px 0; }
   .schedule-row time { grid-column: 2; }
   .fees { padding: 26px; }
+  .practice-calendar { margin-top: 64px; padding-top: 44px; }
+  .calendar-heading { align-items: flex-start; flex-direction: column; margin-bottom: 28px; }
+  .calendar-months { grid-template-columns: 1fr; gap: 46px; }
+  .calendar-month td { height: 46px; }
+  .calendar-note { text-align: left; }
   .instructor-title { grid-row: auto; }
   .instructor-profile { margin-top: 28px; }
   .bio { grid-column: auto; }
