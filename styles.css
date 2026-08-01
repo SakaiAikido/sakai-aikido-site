@@ -159,7 +159,7 @@ footer > p { margin: 8px 0; color: #818b86; font-size: 12px; }
   .site-nav.open { display: flex; }
   .site-nav a { padding: 12px 4px; border-bottom: 1px solid var(--line); }
   .site-nav .nav-cta { margin-top: 12px; color: var(--white); text-align: center; background: var(--vermilion); }
-  .hero { min-height: 720px; align-items: flex-end; padding: 100px 24px 90px; background-position: 68% center; }
+  .hero { min-height: 720px; align-items: flex-end; padding: 100px 24px 90px; background-position: 78% center; }
   .hero-shade { background: linear-gradient(0deg, rgba(9,17,13,.9) 0, rgba(9,17,13,.2) 70%); }
   .hero h1 { font-size: 48px; }
   .hero-copy br { display: none; }
