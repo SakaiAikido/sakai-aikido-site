@@ -23,7 +23,7 @@
       <a href="#schedule">稽古案内</a>
       <a href="#instructor">指導者</a>
       <a href="#access">アクセス</a>
-      <a class="nav-cta" href="#trial">体験を申し込む</a>
+      <a class="nav-cta" href="#trial">体験・見学のご案内</a>
     </nav>
   </header>
 
@@ -35,7 +35,7 @@
         <h1>心と身体を、<br>しなやかに。</h1>
         <p class="hero-copy">年齢や経験を問わず、自分のペースで学べる合気道。<br>静かな稽古の中に、新しい自分を見つけませんか。</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#trial">無料体験を申し込む <span aria-hidden="true">→</span></a>
+          <a class="button button-primary" href="#trial">体験・見学のご案内 <span aria-hidden="true">→</span></a>
           <a class="text-link" href="#schedule">稽古日程を見る <span aria-hidden="true">↓</span></a>
         </div>
       </div>
@@ -162,25 +162,27 @@
     <section class="trial section" id="trial">
       <div class="trial-intro">
         <p class="eyebrow">TRIAL LESSON</p>
-        <h2>まずは、道場の空気を<br>感じてください。</h2>
-        <p>見学・体験は無料です。道着は不要。動きやすい服装と飲み物だけお持ちください。</p>
+        <h2>見学・体験</h2>
+        <p>事前のお申し込みは必要ありません。稽古日程をご確認のうえ、当日会場へ直接お越しください。見学・体験は無料です。</p>
         <ul>
-          <li><span>✓</span> 所要時間 約60分</li>
+          <li><span>✓</span> 事前のご予約・お申し込みは不要</li>
           <li><span>✓</span> お一人でも、ご家族でも歓迎</li>
           <li><span>✓</span> 無理な勧誘はありません</li>
         </ul>
       </div>
-      <form class="trial-form" id="trial-form">
-        <div class="form-row">
-          <label>お名前<span>必須</span><input name="name" type="text" autocomplete="name" required placeholder="山田 太郎"></label>
-          <label>年代<select name="age"><option>選択してください</option><option>10代以下</option><option>20代</option><option>30代</option><option>40代</option><option>50代</option><option>60代以上</option></select></label>
+      <aside class="visit-guide" aria-labelledby="visit-guide-title">
+        <p class="eyebrow">HOW TO VISIT</p>
+        <h3 id="visit-guide-title">そのまま会場へ<br>お越しください</h3>
+        <ol>
+          <li><span>01</span><div><strong>稽古日を確認</strong><p>水曜日・土曜日の稽古日をご確認ください。</p></div></li>
+          <li><span>02</span><div><strong>動きやすい服装で</strong><p>道着は不要です。飲み物をお持ちください。</p></div></li>
+          <li><span>03</span><div><strong>会場でお声がけください</strong><p>到着されましたら、道場の者へ体験・見学希望とお伝えください。</p></div></li>
+        </ol>
+        <div class="visit-actions">
+          <a class="button button-primary" href="#schedule">稽古日程を見る <span aria-hidden="true">↑</span></a>
+          <a class="visit-map-link" href="#access">会場・アクセスを見る <span aria-hidden="true">↑</span></a>
         </div>
-        <label>メールアドレス<span>必須</span><input name="email" type="email" autocomplete="email" required placeholder="example@email.com"></label>
-        <label>ご希望<select name="type"><option>体験稽古を希望</option><option>見学を希望</option><option>まずは相談したい</option></select></label>
-        <label>メッセージ<textarea name="message" rows="3" placeholder="ご希望の曜日や、ご質問があればご記入ください"></textarea></label>
-        <button class="button button-primary" type="submit">内容を確認して送信 <span aria-hidden="true">→</span></button>
-        <p class="form-note">送信後、2日以内に担当者よりご連絡します。</p>
-      </form>
+      </aside>
     </section>
   </main>
 
@@ -190,7 +192,6 @@
     <p class="copyright">© 2026 Sakai Aikido</p>
   </footer>
 
-  <div class="toast" role="status" aria-live="polite">送信を受け付けました。ありがとうございます。</div>
   <script src="script.js"></script>
 </body>
 </html>
